@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnu | </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f5f5;
+            color: #1a1a1a;
+            line-height: 1.8;
+        }
+        header {
+            background: linear-gradient(to right, #1a1a1a, #3a3a3a);
+            color: #fff;
+            padding: 4rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/dark-wood.png');
+            opacity: 0.1;
+        }
+        header h1 {
+            font-size: 4rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+            position: relative;
+        }
+        header p {
+            font-size: 1.5rem;
+            font-style: italic;
+            position: relative;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
+        }
+        .sidebar {
+            flex: 1;
+            min-width: 300px;
+            background: #fff;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .profile-img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            border: 5px solid #d4af37;
+            margin-bottom: 2rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .sidebar h2 {
+            font-size: 2rem;
+            color: #1a1a1a;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid #d4af37;
+            padding-bottom: 0.5rem;
+        }
+        .main-content {
+            flex: 3;
+            min-width: 600px;
+        }
+        .section {
+            background: #fff;
+            padding: 3rem;
+            margin-bottom: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 2.5rem;
+            color: #d4af37;
+            margin-bottom: 1.5rem;
+            border-left: 5px solid #1a1a1a;
+            padding-left: 1rem;
+        }
+        .section p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        .section ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .section ul li {
+            background: #f5f5f5;
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #1a1a1a;
+            border: 2px solid #d4af37;
+        }
+        footer {
+            background: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            font-size: 1.2rem;
+        }
+        @media (max-width: 1024px) {
+            .container {
+                flex-direction: column;
+                padding: 2rem;
+            }
+            .sidebar, .main-content {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vishnu </h1>
+        <p>A Passionite Web Developer</p>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <img src="https://via.placeholder.com/300" alt="Vishnu's Photo" class="profile-img">
+            <h2>Contact Information</h2>
+            <p>Email: vengalavishnu2005@example.com</p>
+            <p>Phone: +91 73969 45004</p>
+            <p>LinkedIn: linkedin.com/in/vishnu/p>
+	    <p>Github :https://github.com/vittu9/p>
+        </div>
+
+        <div class="main-content">
+            <div class="section">
+                <h2>About Me</h2>
+                <p>I am Vishnu, a dedicated professional with a passion for excellence. With a strong background in technology and leadership, I strive to deliver impactful solutions that drive progress and innovation.</p>
+            </div>
+
+            <div class="section">
+                <h2>Skills & Expertise</h2>
+                <ul>
+                    <li>Strategic Planning</li>
+                    <li>Technology Integration</li>
+                    <li>Project Management</li>
+                    <li>Effective Communication</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Experience</h2>
+                <p><strong>Senior Developer</strong> | Tech Innovations Ltd. | 2020 - Present</p>
+                <p>Led a team of developers to successfully deliver multiple high-impact projects, improving efficiency by 30%.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Vishnu. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
