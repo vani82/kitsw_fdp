@@ -1,0 +1,6 @@
+Roll Number,Name,Present(1)/Absent(0)
+101,Alice,0
+102,Bob,1
+103,Charlie,0
+104,David,1
+Total Absentees,,2
